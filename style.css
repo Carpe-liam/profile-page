@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-weight: lighter;
+}
+header
+{
+    display: flex;
+    padding: 5px;
+    padding-left: 120px;
+    background: black;
+    color: white;
+}
+h1
+{
+    padding-right: 10px;;
+}
+#hdtext
+{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.navlinks
+{
+    display: flex;
+    justify-content: space-around;
+}
+#signout
+{
+    background:rgb(22, 176, 187);
+    margin-left: 200px;
+    margin-right: 0px;
+}
+#container
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+#main
+{
+    flex: 2;
+    margin: 15px;
+    margin-left: 10%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 80%, rgb(9, 179, 176) 80%);
+}
+#maintop
+{
+    padding-left: 30px;
+    border: solid lightgrey;
+    padding-bottom: 25px;
+}
+#mainbot
+{
+    margin-top: 20px;;
+    text-indent: 10%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 80%, rgba(61,61,61,1) 80%);
+    border: solid lightgrey;
+}
+#profile
+{
+    width: 23%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#profile1
+{
+    width: 23%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#profile2
+{
+    width: 15%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.class1, .class2
+{
+    display: flex;
+    align-items: center;
+}
+.size
+{
+    height: 32px;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+.change1
+{
+    display: flex;
+    justify-content: space-between;
+}
+#name
+{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#sidebar
+{
+    flex: 1;
+    margin: 15px;
+    margin-right: 10%;
+    text-size-adjust: auto;
+}
+#sidetop
+{
+    margin-top: 15px;
+    border: solid lightgrey;
+    height: auto;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    text-align: center;
+}
+#sidebot
+{
+    margin-top: 15px;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    text-align: center;
+    border: solid lightgrey;
+}
+.row
+{
+    display: flex;
+    align-content: center;
+
+}
+#viewbot
+{
+    border: solid lightgrey;
+}
+#cr2
+{
+    background: lightgrey;
+    color: black;
+    width: 25px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+#con500
+{
+    background: lightgrey;
+    color: black;
+    width: 65px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+}
+h3
+{
+    color: white;
+    background: rgb(34, 34, 34);
+    height: 35px;
+    font-size: 18px;
+    padding-top: 5px;
+}
+ul
+{
+    list-style-type: none;
+}
+ol
+{
+    list-style-type: none;
+}
+li
+{
+    float: left;
+    padding: 10px;
+}
+li a
+{
+    text-decoration: none;
+}
+h6/* sign out button */
+{
+    display: inline-block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+p> img
+{
+    width: 3%;
+}
+/* 
+.center
+{
+    margin: 0;
+    left: 50%;
+} 
+*/
